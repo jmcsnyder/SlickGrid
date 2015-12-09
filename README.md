@@ -1,9 +1,9 @@
 # Welcome to SlickGrid
 
-Find documentation and examples in [the wiki](https://github.com/mleibman/SlickGrid/wiki).
+Find documentation and examples in [the wiki](https://github.com/jmcsnyder/SlickGrid/wiki).
 
 
-**UPDATE:  March 5th, 2014 - I have too many things going on in my life right now to really give SlickGrid support and development the time and attention it deserves.  I am not stopping it, but I will most likely be unresponsive for some time.  Sorry.**
+**UPDATE:  December 8th, 2015, As a user of SlickGrid I decided to make a fork of this project.  My goal is to fix known bugs, add useful features, and provide some nifty examples of how to implement SlickGrid into your application.**
 
 ## SlickGrid is an advanced JavaScript grid/spreadsheet component
 
