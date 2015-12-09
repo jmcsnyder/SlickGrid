@@ -24,9 +24,12 @@ classes should alter those!
 }
 
 .slick-headerrow-column {
-  background: #fafafa;
+  background: #87ceeb;
+  text-overflow: clip;
   border-bottom: 0;
   height: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .slick-row.ui-state-active {
@@ -105,6 +108,56 @@ classes should alter those!
   -webkit-animation-duration: 0.2s;
   -moz-animation-name: slickgrid-invalid-hilite;
   -webkit-animation-name: slickgrid-invalid-hilite;  
+}
+
+/**
+ * Style the drop-down menu here since the plugin stylesheet mostly contains structural CSS.
+ */
+
+.slick-header-menu {
+  border: 1px solid #718BB7;
+  background: #f0f0f0;
+  padding: 2px;
+  -moz-box-shadow: 2px 2px 2px silver;
+  -webkit-box-shadow: 2px 2px 2px silver;
+  min-width: 100px;
+  z-index: 20;
+}
+
+.slick-header-menuitem {
+  padding: 2px 4px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.slick-header-menuitem-disabled {
+  border-color: transparent !important;
+  background: inherit !important;
+}
+
+.icon-help {
+  background-image: url(images/help.png);
+}
+
+.loading-indicator {
+  display: inline-block;
+  padding: 12px;
+  background: white;
+  -opacity: 0.5;
+  color: black;
+  font-weight: bold;
+  z-index: 9999;
+  border: 1px solid red;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-box-shadow: 0 0 5px red;
+  webkit-box-shadow: 0px 0px 5px red;
+  -text-shadow: 1px 1px 1px white;
+}
+
+.loading-indicator label {
+  padding-left: 20px;
+  background: url(images/ajax-loader-small.gif) no-repeat center left;
 }
 
 @-moz-keyframes slickgrid-invalid-hilite {

@@ -74,7 +74,7 @@
         if (pagesize != undefined) {
           if (pagesize == -1) {
             var vp = grid.getViewport();
-            setPageSize(vp.bottom - vp.top);
+            setPageSize(vp.bottom - vp.top - 1);
           } else {
             setPageSize(parseInt(pagesize));
           }
